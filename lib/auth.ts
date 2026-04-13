@@ -1,7 +1,7 @@
 // src/auth.ts
 import { betterAuth } from "better-auth";
 import { prismaAdapter } from "better-auth/adapters/prisma";
-import { PrismaClient } from "../generated/prisma/client.js";
+import { PrismaClient } from "../generated/client/client.js";
 import "dotenv/config";
 
 // 1. Import the Postgres driver and Prisma adapter
